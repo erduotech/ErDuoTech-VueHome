@@ -1,16 +1,16 @@
 [
   {
-    "icon": "Company",
+    "icon": "Book",
     "name": "公司",
     "link": "https://www.xmiok.com.cn/"
   }, 
   {
-    "icon": "Server",
+    "icon": "LaptopCode",
     "name": "服务",
     "link": "https://www.xmiok.com/"
   },
   {
-    "icon": "Domain",
+    "icon": "Compass",
     "name": "创域",
     "link": "http://www.xmiok.cn/"
   },
