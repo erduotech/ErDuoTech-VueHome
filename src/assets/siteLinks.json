@@ -40,6 +40,11 @@
     "link": "https://web.erduo.tech/"
   },
   {
+    "icon": "Fire",
+    "name": "今日热榜",
+    "link": "https://hot.erduo.tech/"
+  },
+  {
     "icon": "LaptopCode",
     "name": "站点监测",
     "link": "https://status.erduo.tech/"
