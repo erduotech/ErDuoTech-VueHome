@@ -105,7 +105,7 @@ export const helloInit = () => {
   }
   ElMessage({
     dangerouslyUseHTMLString: true,
-    message: `<strong>${hello}</strong> 欢迎来到我的主页`,
+    message: `<strong>${hello}</strong> 欢迎来到耳朵科技实验室`,
   });
 };
 
@@ -143,14 +143,14 @@ export const siteDateStatistics = (startDate) => {
   const differenceInMonths = differenceInDays / 30;
   const differenceInYears = differenceInMonths / 12;
   if (differenceInYears >= 1) {
-    return `本站已经苟活了 ${Math.floor(differenceInYears)} 年 ${Math.floor(
+    return `本站已经运行了 ${Math.floor(differenceInYears)} 年 ${Math.floor(
       differenceInMonths % 12
     )} 月 ${Math.round(differenceInDays % 30)} 天`;
   } else if (differenceInMonths >= 1) {
-    return `本站已经苟活了 ${Math.floor(differenceInMonths)} 月 ${Math.round(
+    return `本站已经运行了 ${Math.floor(differenceInMonths)} 月 ${Math.round(
       differenceInDays % 30
     )} 天`;
   } else {
-    return `本站已经苟活了 ${Math.round(differenceInDays)} 天`;
+    return `本站已经运行了 ${Math.round(differenceInDays)} 天`;
   }
 };
